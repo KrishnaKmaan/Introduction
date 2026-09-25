@@ -1,0 +1,19 @@
+     t = q.front().first;
+            }
+
+            while (q.empty() == false && q.front().first <= t) {
+                ready.push(make_pair(q.front().second, q.front().first));
+                q.pop();
+            }
+
+            auto task = ready.top();
+            ready.pop();
+
+            if(task.first > 1) {
+                q.push(make_pair(t + n + 1, task.first - 1));
+            }
+            t++;
+        }
+        return t;
+    }
+};

@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int minOperations(vector<int>& nums) {
+        int cross = 0;
+        int plus = 0;
+        for(auto n : nums) {
+            int m = 0;
+            while(n > 0) {
+                if(n % 2 == 0) {
+                    n = n / 2;
+                    m++;
+                } else {
+                    plus++;
+                    n--;
+                }
+            }
+            cross = max(cross, m);
+        }
+
+        return cross + plus;
+    }
+};

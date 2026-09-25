@@ -1,0 +1,24 @@
+{
+  "title": "Minimum Numbers of Function Calls to Make Target Array",
+  "titleSlug": "minimum-numbers-of-function-calls-to-make-target-array",
+  "frontendQuestionId": "1558",
+  "leetcodeUrl": "https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Greedy",
+    "Bit Manipulation"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-25T17:48:11.822Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-25T17:48:16.041Z"
+}

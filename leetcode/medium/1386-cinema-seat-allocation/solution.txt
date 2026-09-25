@@ -1,0 +1,18 @@
+ow) {
+                if (rs[i][1] >= 2 && rs[i][1] <= 5) {
+                    a = 0;
+                }
+                if (rs[i][1] >= 4 && rs[i][1] <= 7)
+                    b = 0;
+                if (rs[i][1] >= 6 && rs[i][1] <= 9)
+                    c = 0;
+                i++;
+            }
+            i--;
+            ans += (a == 1 && c == 1 ? 2 : (a == 1 || b == 1 || c == 1) ? 1 : 0);
+            last_row = cur_row;
+        }
+        ans += (n - last_row ) * 2;
+        return ans;
+    }
+};

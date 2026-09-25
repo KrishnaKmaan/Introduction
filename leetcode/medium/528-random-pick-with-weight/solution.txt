@@ -1,0 +1,25 @@
+class Solution {
+public:
+    vector<int> sum;
+    Solution(vector<int>& w) {
+        sum.resize(w.size(), 0);
+        sum[0] = w[0];
+        for(int i = 1; i < w.size(); i++) {
+            sum[i] = sum[i - 1] + w[i];
+        }
+    }
+     
+    int pickIndex() {
+        int max = sum.back();
+
+        int random = rand() % max;
+        cout<<random<<endl;
+        return upper_bound(sum.begin(), sum.end(), random)   - sum.begin();
+    }
+};
+
+/**
+ * Your Solution object will be instantiated and called as such:
+ * Solution* obj = new Solution(w);
+ * int param_1 = obj->pickIndex();
+ */

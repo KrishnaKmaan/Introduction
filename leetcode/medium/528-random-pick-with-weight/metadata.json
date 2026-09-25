@@ -1,0 +1,26 @@
+{
+  "title": "Random Pick with Weight",
+  "titleSlug": "random-pick-with-weight",
+  "frontendQuestionId": "528",
+  "leetcodeUrl": "https://leetcode.com/problems/random-pick-with-weight/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Math",
+    "Binary Search",
+    "Prefix Sum",
+    "Randomized"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-25T16:44:22.946Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-25T16:44:25.016Z"
+}

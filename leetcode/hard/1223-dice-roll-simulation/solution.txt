@@ -1,0 +1,20 @@
+class Solution {
+public:
+    vector<int> rollMax;
+    vector<vector<vector<int>>> cache;
+    int MOD = 1e9 + 7;
+    int f(int n, int last, int streak) {
+        if (n == 0)
+            return 1;
+
+        if(cache[n][last][streak] != -1) return cache[n][last][streak];
+        long long ans = 0;
+        for (int i = 1; i <= 6; i++) {
+            if (last == i) {
+                if (streak + 1 > rollMax[i - 1]) {
+                    continue;
+                } else {
+                    ans = (ans + f(n - 1, i, streak + 1)) % MOD;
+                }
+            } else {
+                ans = (ans + f(n - 1,

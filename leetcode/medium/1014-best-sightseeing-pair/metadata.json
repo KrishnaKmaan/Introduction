@@ -1,0 +1,23 @@
+{
+  "title": "Best Sightseeing Pair",
+  "titleSlug": "best-sightseeing-pair",
+  "frontendQuestionId": "1014",
+  "leetcodeUrl": "https://leetcode.com/problems/best-sightseeing-pair/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-26T14:47:00.662Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-26T14:47:02.938Z"
+}

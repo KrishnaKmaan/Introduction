@@ -1,0 +1,26 @@
+max(values[i - 1], left_score[i - 1] - 1);
+        }
+
+        for(int i = n - 1; i > 0; i--) {
+            right_score[i] = max(values[i - 1], right_score[i + 1] - 1);
+        }
+
+        for(auto l : left_score) {
+            cout<<l<<", ";
+        }
+        cout<<endl;
+
+        for(auto l : right_score) {
+            cout<<l<<", ";
+        }
+        cout<<endl;
+
+        int ans = 0;
+        for(int i = 0; i < n; i++) {
+            int cur = values[i] + max(left_score[i], right_score[i + 2]) - 1;
+            cout<<cur<<", ";
+            ans = max(ans, cur);
+        }
+        return ans;
+    }
+};

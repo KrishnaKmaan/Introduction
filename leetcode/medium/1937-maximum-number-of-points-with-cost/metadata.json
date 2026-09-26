@@ -1,0 +1,24 @@
+{
+  "title": "Maximum Number of Points with Cost",
+  "titleSlug": "maximum-number-of-points-with-cost",
+  "frontendQuestionId": "1937",
+  "leetcodeUrl": "https://leetcode.com/problems/maximum-number-of-points-with-cost/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-26T14:24:24.381Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "HINT",
+  "helpLabel": "Needed hint",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-26T14:24:29.393Z"
+}

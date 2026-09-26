@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int memo[101][101];
+
+    int solve(int ringIdx, int keyIdx, const string& ring, const string& key) {
+        // Base case: spelled the whole key
+        if (keyIdx == key.size()) {
+            return 0;
+        }
+
+        // Return cached result if we've been in this exact state before
+        if (memo[ringIdx][keyIdx] != -1) {
+            return memo[ringIdx][keyIdx];
+        }
+
+        int minSteps = INT_MAX;
+        int n = ring.size();
+
+        // Check all positions in the ring to find the current key character
+        for (int i = 0; i < n; i++) {
+            if (ring[i] == key[keyIdx]) {
+                // Calculate minimum rotation (clockwise vs counter-clockwise)
+                int diff = abs(

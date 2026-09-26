@@ -1,0 +1,25 @@
+{
+  "title": "Freedom Trail",
+  "titleSlug": "freedom-trail",
+  "frontendQuestionId": "514",
+  "leetcodeUrl": "https://leetcode.com/problems/freedom-trail/",
+  "difficulty": "Hard",
+  "topics": [
+    "String",
+    "Dynamic Programming",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-26T11:15:34.639Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "EDITORIAL",
+  "helpLabel": "Used editorial",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-26T11:15:39.064Z"
+}
